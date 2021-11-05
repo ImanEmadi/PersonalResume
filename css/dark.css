@@ -1,0 +1,9 @@
+body {
+    --bg-main: #111;
+    --bg-shade: #0d0d0d;
+    --light-border: darkgray;
+    --text-one: #eaeaea;
+    --text-two: lightblue;
+    --bg-comp: #1a1a1a;
+    --icon: #3399ff;
+}
