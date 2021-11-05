@@ -17,6 +17,12 @@ i.fas {
   color: var(--icon);
 }
 
+label,
+input,
+textarea {
+  color: var(--text-one) !important;
+}
+
 .timeline-card:before {
   content: '';
   display: inline-block;
@@ -129,6 +135,16 @@ div.resume-container>div {
   height: 500px;
 }
 
+
+img#programmerIcon {
+  width: 100%;
+  height: 100%;
+}
+
+.solid-ltr {
+  direction: ltr !important;
+}
+
 .cover>img {
   -o-object-fit: cover;
   object-fit: cover;
@@ -154,6 +170,12 @@ footer a:not(.nav-link) {
   border-bottom: 1px dashed;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  img#programmerIcon {
+    display: none;
+  }
 }
 
 @media (min-width: 48em) {

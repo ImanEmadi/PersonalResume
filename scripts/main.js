@@ -8,6 +8,8 @@ AOS.init({
 
 //* GLOBALS */
 
+document.getElementById('message').innerText = "";
+
 const applyTheme = (theme) => {
 
   const oldLink = document.getElementById("themeCSS");
@@ -79,6 +81,8 @@ const translate = (language) => {
     else translation = languageObj[content] ?? "????";
     target.innerText = translation;
   }
+
+  document.body.setAttribute("dir", language === 'pe' ? "rtl" : "ltr");
 
 }
 
