@@ -55,7 +55,6 @@ for (const btn of themeBtns) {
 //! Translation */
 
 const translate = (language) => {
-  console.log(language);
   let languageObj;
   switch (language) {
     case "en":
