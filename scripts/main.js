@@ -7,6 +7,7 @@ AOS.init({
 
 
 window.addEventListener("load", function (e) {
+  document.getElementById('spinner-box').style.display = 'none';
   console.log(e);
 });
 
