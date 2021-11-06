@@ -5,7 +5,8 @@ AOS.init({
   duration: 1000
 });
 
-document.addEventListener("load", function (e) {
+
+window.addEventListener("load", function (e) {
   console.log(e);
 });
 
