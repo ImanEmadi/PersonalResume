@@ -12,7 +12,7 @@ const english = {
     "w_language": "language",
     "cvDownload": "Download CV",
     "hireMe": "HIRE ME",
-    "aboutMeContent": "i am a full stack developer , i have experience in Javascript and PHP and have worked with various frameworks and libraries such as Reactjs , AngularJS , EJS , Mongoose , Redux , Bootstrap and ... . i have also experience with SQL & MongoDB , SCSS , ReactNative and Cordova . my main field is web designing and programming , but i have also been working on ReactNative projects for android and IOS platforms , and also PWA with Reactjs ",
+    "aboutMeContent": "i am a full stack developer , <br/> i have experience in Javascript and PHP and have worked with various frameworks and libraries such as Reactjs , AngularJS , EJS , Mongoose , Redux , Bootstrap and ... . i have also experience with SQL & MongoDB , SCSS , ReactNative and Cordova . <br/> i have also been working on ReactNative projects for android and IOS platforms .",
     "w_bio": "Bio",
     "w_age": "Age",
     "w_email": "Email",
@@ -37,4 +37,5 @@ const english = {
     "label_name": "Full name",
     "label_email": "Email",
     "label_message": "Message",
+    "w_send": "SEND",
 }

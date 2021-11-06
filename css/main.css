@@ -172,6 +172,20 @@ footer a:not(.nav-link) {
   cursor: pointer;
 }
 
+body[dir=rtl] div.timeline-body {
+  border-width: 0px;
+  border-right: 2px solid #E6E9ED;
+}
+
+body[dir=rtl] .timeline-card::before {
+  right: -12px;
+  left: unset;
+}
+
+body[dir=rtl] form {
+  direction: rtl;
+}
+
 @media screen and (max-width: 992px) {
   img#programmerIcon {
     display: none;

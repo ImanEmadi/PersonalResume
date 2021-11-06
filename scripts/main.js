@@ -78,10 +78,16 @@ const translate = (language) => {
     const content = target.getAttribute('data-translate');
     if (content === null) translation = "????";
     else translation = languageObj[content] ?? "????";
-    target.innerText = translation;
+    target.innerHTML = translation;
   }
 
-  document.body.setAttribute("dir", language === 'pe' ? "rtl" : "ltr");
+  const rtl = language === 'pe';
+
+  document.body.setAttribute("dir", rtl ? "rtl" : "ltr");
+  document.documentElement.setAttribute("lang", rtl ? "fa" : "en");
+
+  const mdbLink = document.getElementById('mdbLink');
+  if (mdbLink) mdbLink.href = "./css/" + (rtl ? "mdb.rtl.min.css" : "mdb.min.css");
 
 }
 
