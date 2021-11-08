@@ -10,13 +10,15 @@ window.persian = {
   "w_dark": "تاریک",
   "w_light": "روشن",
   "w_language": "زبان",
-  "cvDownload": "دانلود رزومه",
+  "myCV": "سوابق کاری",
   "hireMe": "همکاری",
   "aboutMeContent": `
     توسعه دهنده فول استک سایت با تجربه کار با زبان های جاوااسکریپت و php
     و تجربه کار با فریم ورک ها و کتابخانه های متنوع ، مثل Reactjs , AngularJS , EJS , Mongoose , Redux , Bootstrap و ... .
-     همچنین دارای تجربه کار با  SQL  و  MongoDB , SCSS , ReactNative  و Cordova.
-       آشنا با طراحی اپلیکیشن موبایل با استفاده از فریم ورک   ReactNative و همچنین طراحی وبسایت به صورت   PWA با استفاده از  reactJS
+    <br/>
+     همچنین دارای تجربه کار با  SQL  و  MongoDB , SCSS , ReactNative  و Cordova .
+     <br/>
+       آشنا با طراحی اپلیکیشن موبایل با استفاده از فریم ورک   ReactNative
     `,
 
   "w_bio": "بیوگرافی",

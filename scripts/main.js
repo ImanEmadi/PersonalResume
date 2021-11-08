@@ -5,10 +5,8 @@ AOS.init({
   duration: 1000
 });
 
-
 window.addEventListener("load", function (e) {
   document.getElementById('spinner-box').style.display = 'none';
-  console.log(e);
 });
 
 //* GLOBALS */
@@ -109,4 +107,3 @@ for (const langBtn of langBtns)
 // load language
 const lang = window.localStorage.getItem("lang");
 translate(validLangs.includes(lang) ? lang : "en");
-

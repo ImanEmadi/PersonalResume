@@ -10,7 +10,7 @@ window.deutsch = {
     "w_dark": "dunkel ",
     "w_light": "licht",
     "w_language": "Sprache",
-    "cvDownload": "CV herunterladen",
+    "myCV": "Berufserfahrung",
     "hireMe": "einstellen",
     "aboutMeContent": "Ich bin ein Full-Stack-Entwickler, <br/> ich habe Erfahrung in Javascript und PHP und habe mit verschiedenen Frameworks und Bibliotheken wie Reactjs, AngularJS, EJS, Mongoose, Redux, Bootstrap und ... gearbeitet. <br/> Ich habe auch Erfahrung mit SQL & MongoDB, SCSS, ReactNative und Cordova. Ich habe auch an ReactNative-Projekten für Android und IOS-Plattformen vor kurzem gearbeitet.",
     "w_bio": "Bio",
