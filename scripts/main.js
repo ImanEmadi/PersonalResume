@@ -59,6 +59,8 @@ for (const btn of themeBtns) {
 
 //! Translation */
 
+const validLangs = ['en', 'pe', 'de'];
+
 const translate = (language) => {
   let languageObj;
   switch (language) {
@@ -72,10 +74,9 @@ const translate = (language) => {
       languageObj = deutsch;
       break;
     default:
+      console.error("unexpected language value");
       return; // invalid request
   }
-
-  if (typeof languageObj === 'undefined') return;
 
   const targets = document.querySelectorAll("[data-translate]");
   let translation;
@@ -107,5 +108,5 @@ for (const langBtn of langBtns)
 
 // load language
 const lang = window.localStorage.getItem("lang");
-translate(lang ?? "en");
+translate(validLangs.includes(lang) ? lang : "en");
 
