@@ -1,0 +1,10 @@
+{
+  "name": "personalReusme",
+  "version": "1.0.0",
+  "description": "my personal resume ",
+  "main": "index.html",
+  "repository": "https://github.com/ImanEmadi/PersonalResume.git",
+  "author": "imanEmadi",
+  "license": "MIT",
+  "private": true
+}
